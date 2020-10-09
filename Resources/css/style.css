@@ -107,6 +107,27 @@ h2:after {
     font-size: 120%;
 }
 
+.contact-form p {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 60px;
+
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #2a2a2a;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 530px;
+    margin-top: 80px;
+}
+
+.remove-underline a:link {
+    background: grey;
+}
+
 /* ----- ICONS ----- */
 .icon-big {
     font-size: 350%;
@@ -169,7 +190,7 @@ input[type = submit] {
 /* --------------------------------------- */
 
 header {
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(img/AdobeStock_215214785.jpeg) ;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(img/FirstDraft.jpeg) ;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -376,39 +397,8 @@ cite img {
     margin: 0 auto;
 }
 
-input[type=text], 
-input[type=email],
-select,
-textarea {
-    width:100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    margin-bottom:20px;
-}
 
-textarea {
-    height: 100px;
-}
 
-input[type = checkbox] {
-    margin : 10px 5px 10px 0;
-}
-
-*:focus {outline: none;}
-
-.form-messages {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.success { background-color: rgba(69, 226, 48, 0.8)}
-
-.error { background-color: rgb(240, 15, 15, 0.8)}
 
 /* ---------------------------------------*/
 /* FOOTER */
@@ -416,7 +406,7 @@ input[type = checkbox] {
 
 footer {
     background-color:#333;
-    padding:50px;
+    padding:16px;
     font-size: 80%;
 
 }
